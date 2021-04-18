@@ -34,8 +34,22 @@
 
 // you can prefix with type
 
-let message;
-message = 'abc';
-let endsWithC = (<string>message).endsWith('c');
+// let message;
+// message = 'abc';
+// let endsWithC = (<string>message).endsWith('c');
 // alternatively
 // let alternativeWay = (message as string).endsWith('c')
+
+// Arrow Functions
+
+// let log = function (message) {
+//   console.log(message);
+// };
+
+// arrow func ex.
+// let doLog = (message) => {
+//   console.log(message);
+// };
+
+// ( you can remove curly braces if one liner)
+// let doLog = (message) => console.log(message);

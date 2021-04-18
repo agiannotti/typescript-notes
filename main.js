@@ -1,5 +1,2 @@
-function log(message) {
-    console.log(message);
-}
-var message = 'Hello, world';
-log(message);
+var count = 5;
+count = 'a';

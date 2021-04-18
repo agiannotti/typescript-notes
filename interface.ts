@@ -63,20 +63,31 @@
 //   y: 2,
 // });
 
-class Point {
-  x: number; // <-- fields
-  y: number;
+// class Point {
+//   x: number; // <-- fields
+//   y: number;
 
-  draw() {
-    //...
-    console.log('x: ' + this.x, 'y: ' + this.x);
-  }
-  getDistance(another: Point) {
-    // ...
-  }
-}
-// allocating memory for new object
-let point = new Point();
-point.x = 1;
-point.y = 2;
-point.draw();
+//   draw() {
+//     console.log('x: ' + this.x, 'y: ' + this.x);
+//   }
+
+// }
+// // allocating memory for new object
+// let point = new Point();
+// point.x = 1;
+// point.y = 2;
+// point.draw();
+
+// class Point {
+//   x: number; // <-- fields
+//   y: number;
+
+//   draw() {
+//     console.log('x: ' + this.x, 'y: ' + this.x);
+//   }
+// }
+// // allocating memory for new object
+// let point = new Point();
+// point.x = 1;
+// point.y = 2;
+// point.draw();

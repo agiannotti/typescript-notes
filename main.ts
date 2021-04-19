@@ -53,3 +53,8 @@
 
 // ( you can remove curly braces if one liner)
 // let doLog = (message) => console.log(message);
+
+import { Point } from './modules';
+
+let point = new Point(1, 2);
+point.draw();
